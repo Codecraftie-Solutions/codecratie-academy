@@ -1,5 +1,5 @@
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.tsx","import":"Montserrat","arguments":[{"subsets":["latin"],"variable":"--font-body-face","display":"swap"}],"variableName":"body"} ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.tsx","import":"Montserrat","arguments":[{"subsets":["latin"],"variable":"--font-body-face","display":"swap"}],"variableName":"body"} ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
@@ -51,7 +51,7 @@
 }
 
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.tsx","import":"Syne","arguments":[{"subsets":["latin"],"weight":["600","700","800"],"variable":"--font-display-face","display":"swap"}],"variableName":"display"} ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.tsx","import":"Syne","arguments":[{"subsets":["latin"],"weight":["600","700","800"],"variable":"--font-display-face","display":"swap"}],"variableName":"display"} ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* greek */
 @font-face {
@@ -139,14 +139,13 @@
 }
 
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/globals.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
-/* CodeCraftie palette: near-black ink + signature orange (#FF6A3D), on warm paper */
+/* CodeCraftie palette: cream #FFFEF2, lavender-white #F2F3FF, lavender #E9EAF7, olive accent #7F7716, near-black ink */
 :root{
-  --tint:#F7F4F0; --tint-2:#EBE1D8; --dark:#10131A; --ink:#0B0D11; --night:#0B0D11;
-  --accent:#FF6A3D; --accent-soft:#FF8A63; --accent-warm:#FFC4A3; --accent-deep:#C73E13;
-  --ok:#2E9E5B;
-  --white:#fff; --paper:#F1EDE8; --muted:#586073;
+  --tint:#FFFEF2; --alt:#F2F3FF; --tint-2:#E9EAF7; --dark:#10131A; --ink:#0B0D11; --night:#0B0D11;
+  --accent:#7F7716; --accent-soft:#C8BD4A; --accent-warm:#D8D3A3; --accent-deep:#6A6312; --on-accent:#FFFFFF;
+  --white:#fff; --paper:#E9EAF7; --muted:#586073;
   --font-display:var(--font-display-face),system-ui,sans-serif;
   --font-body:var(--font-body-face),system-ui,sans-serif;
   --container:1120px; --nav-h:84px; --radius:28px; --radius-sm:12px;
@@ -158,7 +157,7 @@
 html{scroll-behavior:smooth}
 body{background:var(--tint);color:var(--dark);font-family:var(--font-body);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 img{max-width:100%;display:block} a{color:inherit;text-decoration:none} button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
-::selection{background:var(--accent);color:var(--ink)}
+::selection{background:var(--accent);color:var(--on-accent)}
 section[id]{scroll-margin-top:var(--nav-h)}
 a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:4px;border-radius:6px}
 .container{max-width:var(--container);margin:0 auto;padding:0 var(--s-5)}
@@ -178,7 +177,7 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 .band-navy p{color:rgba(255,255,255,.9);font-size:1.1rem}
 .band-navy p+p{margin-top:var(--s-4)}
 .on-navy{color:rgba(255,255,255,.9)!important}
-.band-white{background:var(--white)}
+.band-white{background:var(--alt)}
 .band-mint{background:var(--tint)}
 
 /* nav */
@@ -208,7 +207,7 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 .hero-facts{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:var(--s-5);gap:var(--s-5);list-style:none;max-width:960px;margin:0 auto var(--s-7)}
 .hero-facts li{display:flex;flex-direction:column;align-items:center;gap:var(--s-3);font-size:1.25rem;line-height:1.3}
 .hero-actions{display:flex;gap:var(--s-3);justify-content:center;flex-wrap:wrap}
-.hero-stage{margin-top:var(--s-8);padding:clamp(20px,5vw,64px);border-radius:var(--radius);background:linear-gradient(135deg,var(--accent-soft),var(--accent-warm));text-align:left}
+.hero-stage{margin-top:var(--s-8);padding:clamp(20px,5vw,64px);border-radius:var(--radius);background:var(--tint-2);text-align:left}
 .hero-stage .review-example{max-width:640px;margin:0 auto}
 
 /* review demo */
@@ -216,7 +215,7 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 .review-example figcaption{display:flex;justify-content:space-between;gap:8px;padding:14px 22px;background:var(--dark);color:var(--white);font-size:.85rem;font-weight:600}
 .demo-steps{list-style:none;display:flex;gap:8px;padding:14px 22px;border-bottom:1px solid var(--tint-2);font-size:.8rem;font-weight:600}
 .demo-steps li{padding:4px 12px;border-radius:99px;color:var(--muted);transition:.5s}
-.demo-steps li.on{background:var(--accent);color:var(--ink)}
+.demo-steps li.on{background:var(--accent);color:var(--on-accent)}
 .example-body{padding:22px}
 .example-task{font-weight:600;margin-bottom:var(--s-4)}
 .review-example pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85rem;line-height:1.8;white-space:pre-wrap;padding:14px 16px;border-radius:var(--radius-sm);background:var(--tint)}
@@ -228,8 +227,8 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 .stage-1 .s1,.stage-2 .s1,.stage-3 .s1,.stage-2 .s2,.stage-3 .s2,.stage-3 .s3{grid-template-rows:1fr;opacity:1;margin-top:var(--s-4)}
 .example-question strong,.example-check strong{display:block}
 .example-question p,.example-check{font-size:.9rem;color:var(--muted)}
-.example-revision{background:#E3F4E8!important;border-left:4px solid var(--ok)}
-.example-check{display:grid;grid-template-columns:auto 1fr;grid-gap:10px;gap:10px;color:var(--ok)}
+.example-revision{background:#F1EFCF!important;border-left:4px solid var(--accent)}
+.example-check{display:grid;grid-template-columns:auto 1fr;grid-gap:10px;gap:10px;color:var(--accent-deep)}
 .tick{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .7s var(--ease) .5s}
 .stage-3 .tick{stroke-dashoffset:0}
 
@@ -241,18 +240,18 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 
 /* tabs */
 .tabs{max-width:960px;margin:var(--s-7) auto 0}
-.tab-list{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:6px;gap:6px;padding:8px;background:#EAE5DF;border-radius:18px 18px 0 0}
-.tab-list button{padding:14px;border-radius:10px;font-weight:700;color:#6B6560;background:#F4F1EE;transition:.3s}
-.tab-list button.on{background:var(--accent);color:var(--ink)}
+.tab-list{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:6px;gap:6px;padding:8px;background:var(--tint-2);border-radius:18px 18px 0 0}
+.tab-list button{padding:14px;border-radius:10px;font-weight:700;color:#5A5F78;background:var(--alt);transition:.3s}
+.tab-list button.on{background:var(--accent);color:var(--on-accent)}
 .tab-panel{display:grid;grid-template-columns:1fr 1fr;grid-gap:var(--s-6);gap:var(--s-6);align-items:center;padding:var(--s-6);background:var(--white);border-radius:0 0 18px 18px;min-height:320px}
 .tab-panel h3{color:var(--dark);font-size:1.5rem}
 .tab-panel p{color:var(--dark)!important;font-size:1.1rem}
-.tab-art{display:grid;place-items:center;height:260px;border-radius:24px;background:linear-gradient(#FFE3D6,#FFC4A3);font-family:var(--font-display);font-weight:800;font-size:4.5rem;color:var(--accent)}
+.tab-art{display:grid;place-items:center;height:260px;border-radius:24px;background:var(--tint-2);font-family:var(--font-display);font-weight:800;font-size:4.5rem;color:var(--accent)}
 
 /* AI split card */
 .ai-section{background:var(--tint)}
 .split-card{display:grid;grid-template-columns:1fr 1.1fr;border-radius:var(--radius);overflow:hidden;background:var(--tint-2);margin-top:var(--s-6)}
-.split-art{display:grid;place-items:center;min-height:320px;background:linear-gradient(135deg,var(--accent),var(--accent-soft));color:var(--ink);font-family:var(--font-display);font-weight:800;font-size:clamp(3rem,8vw,6rem)}
+.split-art{display:grid;place-items:center;min-height:320px;background:var(--accent);color:var(--on-accent);font-family:var(--font-display);font-weight:800;font-size:clamp(3rem,8vw,6rem)}
 .split-text{padding:clamp(24px,4vw,56px)}
 .split-text h3{font-size:1.9rem;font-weight:600}
 .split-text p{margin-top:var(--s-3)}
@@ -272,14 +271,14 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 /* CTA banner */
 .cta-banner{padding:clamp(40px,7vw,88px) var(--s-5);border-radius:var(--radius);text-align:center;background-color:var(--accent);
   background-size:64px 64px;background-repeat:repeat;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M32 22v20M22 32h20' stroke='%23FF9A74' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E")}
-.cta-banner h2{color:var(--ink);max-width:20ch;margin-inline:auto}
-.cta-banner p{max-width:52ch;margin:0 auto var(--s-6);color:var(--ink);font-size:1.1rem}
-.cta-banner small{display:block;margin-top:var(--s-4);color:var(--ink)}
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M32 22v20M22 32h20' stroke='white' stroke-opacity='0.16' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E")}
+.cta-banner h2{color:var(--on-accent);max-width:20ch;margin-inline:auto}
+.cta-banner p{max-width:52ch;margin:0 auto var(--s-6);color:var(--on-accent);font-size:1.1rem}
+.cta-banner small{display:block;margin-top:var(--s-4);color:var(--on-accent)}
 
 /* footer */
-.footer{background:var(--dark);color:var(--accent);padding:var(--s-8) 0 0}
-.footer .wordmark{color:var(--accent)}.footer .mark{border-color:var(--accent)}
+.footer{background:var(--dark);color:var(--accent-soft);padding:var(--s-8) 0 0}
+.footer .wordmark{color:var(--accent-soft)}.footer .mark{border-color:var(--accent-soft)}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;grid-gap:var(--s-6);gap:var(--s-6);padding-bottom:var(--s-7)}
 .footer h4{font-family:var(--font-display);font-weight:700;color:var(--white);margin-bottom:var(--s-4)}
 .footer ul{list-style:none;display:grid;grid-gap:10px;gap:10px;font-size:.95rem}
@@ -311,7 +310,7 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 
 
 /* career pathway diagram */
-.path{background:var(--white);padding-bottom:var(--s-9)}
+.path{background:var(--alt);padding-bottom:var(--s-9)}
 .path .lede{margin-bottom:var(--s-6)}
 .pw-wrap{max-width:1360px;margin:0 auto;padding:0 var(--s-5)}
 .pw{display:grid;grid-template-columns:auto 48px minmax(0,1fr);align-items:center;padding-top:120px}
@@ -337,7 +336,7 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 .pw-star{position:relative;display:grid;place-items:center;aspect-ratio:1}
 .pw-star svg{grid-area:1/1;width:100%;height:100%;overflow:visible}
 .pw-star polygon{fill:var(--accent);transform-box:fill-box;transform-origin:center}
-.pw-star span{grid-area:1/1;position:relative;max-width:58%;text-align:center;color:var(--ink);font-family:var(--font-body);font-weight:800;font-size:clamp(.7rem,1vw,.95rem);line-height:1.2}
+.pw-star span{grid-area:1/1;position:relative;max-width:58%;text-align:center;color:var(--on-accent);font-family:var(--font-body);font-weight:800;font-size:clamp(.7rem,1vw,.95rem);line-height:1.2}
 
 /* diagram animation, in order: start nodes, dashed arrow, each card and its stroke, final arrow, starburst */
 .pw-node,.pw-tile,.pw-text{opacity:0;transition:opacity .6s var(--ease) calc(var(--t,0)*1s),transform .7s var(--ease) calc(var(--t,0)*1s)}
@@ -382,7 +381,7 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 .band-white .card{background:var(--tint)}
 .card .price{font-family:var(--font-display);font-weight:800;font-size:1.3rem;white-space:nowrap;color:var(--ink);margin-top:var(--s-2)}
 .detail-note{margin-top:var(--s-5);font-size:.95rem;color:var(--muted)}
-.belief{border-top:3px solid var(--accent);padding-top:var(--s-4)}
+.belief{border-top:3px solid var(--accent-soft);padding-top:var(--s-4)}
 
 /* offer tiers */
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:var(--s-5);gap:var(--s-5)}
@@ -393,8 +392,12 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 .tier ul{margin-left:1.1rem;font-size:.95rem;line-height:1.55;display:grid;grid-gap:6px;gap:6px}
 @media(max-width:900px){.grid-3{grid-template-columns:1fr}}
 
+/* payment details */
+.pay-details{list-style:none;margin-top:var(--s-4);display:grid;grid-gap:8px;gap:8px;font-weight:600}
+.pay-details span{display:block;font-size:.8rem;font-weight:600;color:var(--muted)}
+
 /*!************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/polish.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/polish.css ***!
   \************************************************************************************************************************************************************************************************************************************************************/
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1!important;transform:none!important}}
 

@@ -113,7 +113,7 @@ export default function ProgramPage() {
                     className="mono"
                     style={{
                       fontSize: "0.75rem",
-                      color: "var(--accent-text)",
+                      color: "var(--accent-deep)",
                       marginTop: 4,
                     }}
                   >

@@ -25,6 +25,10 @@ const faqs = [
     a: "There are three options: Foundation at ₦80,000, Career Launch at ₦150,000, and 1:1 Pro at ₦300,000. The Program details section shows what each includes. You choose your option and upload your proof of payment on the application form.",
   },
   {
+    q: "How do I pay?",
+    a: "Pay by bank transfer to the account shown in the How to apply and pay section and on the application form. Then upload a screenshot or PDF of your receipt on the form so we can confirm your payment.",
+  },
+  {
     q: "Who is this program not for?",
     a: "It is not for anyone looking for a certificate without doing the work, a guaranteed job, or a quick route to income. The program requires regular practice, project work, and revision.",
   },

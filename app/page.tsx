@@ -5,6 +5,7 @@ import CurriculumSection from "@/components/sections/CurriculumSection";
 import MethodSection from "@/components/sections/MethodSection";
 import AIPhilosophySection from "@/components/sections/AIPhilosophySection";
 import DetailsSection from "@/components/sections/DetailsSection";
+import HowToApplySection from "@/components/sections/HowToApplySection";
 import PrinciplesSection from "@/components/sections/PrinciplesSection";
 import FAQSection from "@/components/sections/FAQSection";
 import FinalCTASection from "@/components/sections/FinalCTASection";
@@ -19,6 +20,7 @@ export default function Home() {
       <MethodSection />
       <AIPhilosophySection />
       <DetailsSection />
+      <HowToApplySection />
       <PrinciplesSection />
       <FAQSection />
       <FinalCTASection />

@@ -6,7 +6,7 @@ const steps = [
   { t: "JavaScript & Web", w: "Weeks 3–4", c: "var(--dark)" },
   { t: "APIs & React", w: "Weeks 5–6", c: "var(--dark)" },
   { t: "AI-Assisted Engineering", w: "Week 7", c: "var(--accent)" },
-  { t: "Capstone & Career Prep", w: "Week 8", c: "var(--ok)" },
+  { t: "Capstone & Career Prep", w: "Week 8", c: "var(--accent-soft)" },
 ];
 
 // Each card draws a "snake" stroke (viewBox: tile is 0..100, connector stubs reach -17.5 and 117.5)
