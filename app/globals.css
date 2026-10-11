@@ -258,3 +258,7 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 /* payment details */
 .pay-details{list-style:none;margin-top:var(--s-4);display:grid;gap:8px;font-weight:600}
 .pay-details span{display:block;font-size:.8rem;font-weight:600;color:var(--muted)}
+
+.pay-links{list-style:none;display:grid;gap:8px;margin:var(--s-4) 0}
+.pay-links .btn{width:100%}
+.pay-note{margin-top:var(--s-4);font-size:.88rem;color:var(--muted)}

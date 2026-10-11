@@ -1,3 +1,4 @@
+import { ACADEMY_EMAIL, mailto } from "@/lib/config";
 import RevealWrapper from "@/components/RevealWrapper";
 import ApplyLink from "@/components/ApplyLink";
 export default function FinalCTASection() {
@@ -12,7 +13,7 @@ export default function FinalCTASection() {
               <ApplyLink className="btn btn-navy">Apply now</ApplyLink>
               <a href="/program" className="btn btn-navy">Explore the program</a>
             </div>
-            <small>Opens the application form in a new tab. Questions? Email academy@codecraftie.com.</small>
+            <small>Opens the application form in a new tab. Questions? Email {ACADEMY_EMAIL}.</small>
           </div>
         </RevealWrapper>
       </div>

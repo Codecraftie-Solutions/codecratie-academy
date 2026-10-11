@@ -1,3 +1,4 @@
+import { ACADEMY_EMAIL, mailto } from "@/lib/config";
 import RevealWrapper from "@/components/RevealWrapper";
 
 export default function ContactPage() {
@@ -25,10 +26,10 @@ export default function ContactPage() {
               Applications, curriculum questions, and cohort updates:
             </p>
             <a
-              href="mailto:academy@codecraftie.com"
+              href={mailto()}
               className="btn btn-primary btn-sm"
             >
-              academy@codecraftie.com
+              {ACADEMY_EMAIL}
             </a>
           </div>
         </RevealWrapper>

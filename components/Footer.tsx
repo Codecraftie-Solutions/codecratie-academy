@@ -1,3 +1,4 @@
+import { ACADEMY_EMAIL, mailto } from "@/lib/config";
 import Link from "next/link";
 import ApplyLink from "@/components/ApplyLink";
 import { Wordmark } from "@/components/Mark";
@@ -54,12 +55,12 @@ export default function Footer() {
             <h4>Program inquiries</h4>
             <ul>
               <li>
-                <a href="mailto:academy@codecraftie.com?subject=Keep%20me%20updated">
+                <a href={mailto("Keep me updated")}>
                   Future cohort updates
                 </a>
               </li>
               <li>
-                <a href="mailto:academy@codecraftie.com?subject=Youth%20programs">
+                <a href={mailto("Youth programs")}>
                   Youth programs (ages 7–18): interest list
                 </a>
               </li>
