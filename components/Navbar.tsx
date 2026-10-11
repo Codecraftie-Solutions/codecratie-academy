@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import ApplyLink from "@/components/ApplyLink";
+import { Wordmark } from "@/components/Mark";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -9,7 +10,7 @@ export default function Navbar() {
   return (
     <header className="nav">
       <div className="nav-inner">
-        <Link href="/" className="wordmark" onClick={close}><span className="mark">&lt;/&gt;</span>CodeCraftie</Link>
+        <Link href="/" className="wordmark" aria-label="Code-Craftie Academy, home" onClick={close}><Wordmark /></Link>
         <nav id="primary-navigation" className={`nav-links${open ? " open" : ""}`}>
           <Link href="/program" onClick={close}>Program</Link>
           <Link href="/#curriculum" onClick={close}>Curriculum</Link>

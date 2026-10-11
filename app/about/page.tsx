@@ -13,9 +13,13 @@ export default function AboutPage() {
             Learn to Think. Learn to Build.
           </h1>
           <p className="lede" style={{ marginBottom: "var(--s-5)" }}>
-            CodeCraftie Solutions is a technology and education company. We
-            started with education to give beginners a stronger understanding of
-            how software is designed, tested, and maintained.
+            Code-Craftie Academy is the training arm of{" "}
+            <a href="https://codecraftie.com" style={{ textDecoration: "underline" }}>
+              Code-Craftie Solutions
+            </a>
+            , a software studio in Lagos that builds and runs production software
+            for businesses. We teach beginners how software is designed, tested and
+            maintained, the way we build it ourselves.
           </p>
         </RevealWrapper>
 
@@ -35,11 +39,10 @@ export default function AboutPage() {
           <div style={{ marginBottom: "var(--s-7)" }}>
             <h3>Where we&apos;re headed</h3>
             <p style={{ color: "var(--text-muted)", lineHeight: 1.8 }}>
-              CodeCraftie Academy is our first product, but not our last. Over
-              time, CodeCraftie Solutions will expand into software products, AI
-              solutions, and additional education programs, including technology
-              education for ages 7–18. This website is the foundation for that
-              future.
+              Software Engineering &amp; AI Foundations is our first programme.
+              Next, we plan to add more advanced tracks and technology education
+              for ages 7–18. Throughout, students learn from engineers who build
+              and run real products, such as CatalogFlow.
             </p>
           </div>
         </RevealWrapper>

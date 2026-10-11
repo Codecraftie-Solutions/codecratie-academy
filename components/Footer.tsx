@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ApplyLink from "@/components/ApplyLink";
+import { Wordmark } from "@/components/Mark";
 
 export default function Footer() {
   return (
@@ -7,12 +8,15 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <Link href="/" className="wordmark">
-              <span className="mark">&lt;/&gt;</span>CodeCraftie
+            <Link href="/" className="wordmark" aria-label="Code-Craftie Academy, home">
+              <Wordmark />
             </Link>
             <p>
-              A technology and education company. Learn. Build. Create.
-              Academy program: Software Engineering & AI Foundations.
+              The training arm of{" "}
+              <a href="https://codecraftie.com" style={{ textDecoration: "underline" }}>
+                Code-Craftie Solutions
+              </a>
+              , a software studio in Lagos.
             </p>
           </div>
           <div>
@@ -36,10 +40,13 @@ export default function Footer() {
             <h4>Company</h4>
             <ul>
               <li>
-                <Link href="/about">About CodeCraftie</Link>
+                <Link href="/about">About the Academy</Link>
               </li>
               <li>
                 <Link href="/contact">Contact</Link>
+              </li>
+              <li>
+                <a href="https://codecraftie.com">Code-Craftie Solutions</a>
               </li>
             </ul>
           </div>
@@ -60,7 +67,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2026 CodeCraftie Solutions. Learn. Build. Create.</span>
+          <span>© 2026 Code-Craftie Solutions. A business name registered with the Corporate Affairs Commission, Nigeria, BN 8701900.</span>
 
         </div>
       </div>
