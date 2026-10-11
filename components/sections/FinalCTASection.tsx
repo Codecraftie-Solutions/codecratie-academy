@@ -1,4 +1,4 @@
-import { ACADEMY_EMAIL, mailto } from "@/lib/config";
+import Link from "next/link";
 import RevealWrapper from "@/components/RevealWrapper";
 import ApplyLink from "@/components/ApplyLink";
 export default function FinalCTASection() {
@@ -13,7 +13,7 @@ export default function FinalCTASection() {
               <ApplyLink className="btn btn-navy">Apply now</ApplyLink>
               <a href="/program" className="btn btn-navy">Explore the program</a>
             </div>
-            <small>Opens the application form in a new tab. Questions? Email {ACADEMY_EMAIL}.</small>
+            <small>Opens the application form in a new tab. Questions? <Link href="/contact" style={{ textDecoration: "underline" }}>Send us a message</Link>.</small>
           </div>
         </RevealWrapper>
       </div>

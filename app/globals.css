@@ -262,3 +262,20 @@ h3{font-size:1.2rem;font-weight:700;margin-bottom:var(--s-2)}
 .pay-links{list-style:none;display:grid;gap:8px;margin:var(--s-4) 0}
 .pay-links .btn{width:100%}
 .pay-note{margin-top:var(--s-4);font-size:.88rem;color:var(--muted)}
+
+/* contact form */
+.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-5) var(--s-4)}
+.cf{display:grid;gap:8px;align-content:start}
+.cf-wide{grid-column:1/-1}
+.cf label{font-weight:600;font-size:.95rem}
+.cf small{font-weight:400;color:var(--muted)}
+.cf input,.cf select,.cf textarea{width:100%;font:inherit;font-size:1rem;color:var(--dark);background:var(--white);border:1px solid #D5D9E6;border-radius:var(--radius-sm);padding:12px 14px;min-height:50px}
+.cf textarea{resize:vertical;min-height:150px}
+.cf input:focus,.cf select:focus,.cf textarea:focus{outline:2px solid var(--accent);outline-offset:0;border-color:transparent}
+.cf [aria-invalid=true]{border-color:#C2362F}
+.field-err{color:#C2362F;font-size:.9rem}
+.form-fail{margin-top:var(--s-4);color:#C2362F}
+.form-done{padding:var(--s-6);border-radius:var(--radius-sm);background:var(--accent-warm);border:1px solid var(--accent-soft)}
+.form-done p{margin-top:var(--s-2)}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+@media(max-width:640px){.contact-form{grid-template-columns:1fr}}

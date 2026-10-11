@@ -1,4 +1,3 @@
-import { ACADEMY_EMAIL, mailto } from "@/lib/config";
 import Link from "next/link";
 import ApplyLink from "@/components/ApplyLink";
 import { Wordmark } from "@/components/Mark";
@@ -55,12 +54,12 @@ export default function Footer() {
             <h4>Program inquiries</h4>
             <ul>
               <li>
-                <a href={mailto("Keep me updated")}>
+                <a href="/contact?topic=updates">
                   Future cohort updates
                 </a>
               </li>
               <li>
-                <a href={mailto("Youth programs")}>
+                <a href="/contact?topic=youth">
                   Youth programs (ages 7–18): interest list
                 </a>
               </li>
