@@ -6,7 +6,11 @@ export const PAYMENT = {
   accountName: process.env.NEXT_PUBLIC_ACCOUNT_NAME?.trim() ?? "",
   accountNumber: process.env.NEXT_PUBLIC_ACCOUNT_NUMBER?.trim() ?? "",
 };
-export const HAS_PAYMENT_DETAILS = Boolean(PAYMENT.bankName && PAYMENT.accountName && PAYMENT.accountNumber);
+// Bank details stay off the public site unless NEXT_PUBLIC_SHOW_BANK_DETAILS=true.
+// While they are hidden, the site sends people to the application form for them.
+export const HAS_PAYMENT_DETAILS =
+  process.env.NEXT_PUBLIC_SHOW_BANK_DETAILS === "true" &&
+  Boolean(PAYMENT.bankName && PAYMENT.accountName && PAYMENT.accountNumber);
 
 // Optional: Paystack payment pages, one per option (Paystack > Payment Pages > copy link).
 // When set, step 2 offers "Pay online" first and bank transfer as the alternative.

@@ -57,7 +57,7 @@ export default function HowToApplySection() {
           <div className="hero-actions" style={{ marginTop: "var(--s-6)" }}>
             <ApplyLink className="btn btn-primary">Apply now</ApplyLink>
           </div>
-          <p className="detail-note center">{HAS_PAY_LINKS ? "Only pay through the Paystack links or the account shown on this site or on the official application form." : "Only pay into the account shown on this site or on the official application form."}</p>
+          <p className="detail-note center">{HAS_PAY_LINKS ? "Only pay through the Paystack links or the account shown on this site or on the official application form." : HAS_PAYMENT_DETAILS ? "Only pay into the account shown on this site or on the official application form." : "Only pay into the account given on the official application form."}</p>
         </RevealWrapper>
       </div>
     </section>

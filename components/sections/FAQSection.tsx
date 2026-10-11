@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "How do I pay?",
-    a: "Use the payment options in the How to apply and pay section: online through Paystack where available, or by bank transfer to the account shown there and on the application form. Then upload your receipt on the form so we can confirm your payment.",
+    a: "Use the payment options in the How to apply and pay section: online through Paystack where available, or by bank transfer to the account given on the application form. Then upload your receipt on the form so we can confirm your payment.",
   },
   {
     q: "Who is this program not for?",
