@@ -74,7 +74,7 @@ export default function ProgramPage() {
                     paddingLeft: 18,
                   }}
                 >
-                  <li>Complete beginners with zero coding experience</li>
+                  <li>Complete beginners, including people new to computers</li>
                   <li>University students and recent graduates</li>
                   <li>Career switchers exploring technology</li>
                   <li>Young professionals wanting practical skills</li>

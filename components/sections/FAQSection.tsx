@@ -6,7 +6,7 @@ import RevealWrapper from "@/components/RevealWrapper";
 const faqs = [
   {
     q: "Do I need any coding experience?",
-    a: "None. The program assumes zero experience and starts with how computers and the internet work. If you can use a computer, you can start here.",
+    a: "None, and no computer experience either. If you've never used a laptop, you start with Week 0 Digital Readiness before the cohort begins: the mouse and keyboard, files and folders, the browser, email and staying safe online. From Week 1 the program starts with how computers and the internet work.",
   },
   {
     q: "Will I be a software engineer after 8 weeks?",

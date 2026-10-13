@@ -2,8 +2,8 @@
 import { useEffect, useRef, useState } from "react";
 
 const steps = [
-  { t: "Foundations & Git", w: "Weeks 1–2", c: "var(--accent-warm)" },
-  { t: "JavaScript & Web", w: "Weeks 3–4", c: "var(--dark)" },
+  { t: "Foundations & Programming", w: "Weeks 1–2", c: "var(--accent-warm)" },
+  { t: "Git & Web Development", w: "Weeks 3–4", c: "var(--dark)" },
   { t: "APIs & React", w: "Weeks 5–6", c: "var(--dark)" },
   { t: "AI-Assisted Engineering", w: "Week 7", c: "var(--accent)" },
   { t: "Capstone & Career Prep", w: "Week 8", c: "var(--accent-soft)" },
