@@ -6,7 +6,11 @@ import RevealWrapper from "@/components/RevealWrapper";
 const faqs = [
   {
     q: "Do I need any coding experience?",
-    a: "None, and no computer experience either. If you've never used a laptop, you start with Week 0 Digital Readiness before the cohort begins: the mouse and keyboard, files and folders, the browser, email and staying safe online. From Week 1 the program starts with how computers and the internet work.",
+    a: "None, and no computer experience either. If you've never used a laptop, you start with Week 0 Digital Readiness before the cohort begins: the mouse and keyboard, files and folders, the browser, email and staying safe online. From Week 1 you learn how the web works and build your first web page.",
+  },
+  {
+    q: "Why do you teach HTML and CSS before JavaScript?",
+    a: "JavaScript works on web pages, and you can't fix what you don't understand. Weeks 1–3 build solid HTML and CSS, ending in a gate where you build a responsive website on your own and explain every line. JavaScript starts in Week 4, once that foundation is in place.",
   },
   {
     q: "Will I be a software engineer after 8 weeks?",

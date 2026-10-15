@@ -4,34 +4,39 @@ import ApplyLink from "@/components/ApplyLink";
 
 const curriculumDetails = [
   {
-    week: "Week 1–2",
-    title: "Computer & Internet Foundations + Programming Fundamentals",
-    desc: "How machines work, how the internet moves data, and your first programs: variables, logic, functions, and problem decomposition.",
+    week: "Week 1",
+    title: "How the Web Works & Your First HTML Page",
+    desc: "How the internet and the web work, your code editor, and your first web page in HTML, written from a blank file.",
+  },
+  {
+    week: "Week 2",
+    title: "HTML in Depth & CSS Foundations",
+    desc: "Semantic, accessible HTML with forms and tables, styled with CSS: colour, type, and the box model.",
   },
   {
     week: "Week 3",
-    title: "Git & Version Control",
-    desc: "Branches, commits, pull requests, and common collaboration workflows.",
+    title: "Layout, Responsive Design & the HTML/CSS Gate",
+    desc: "Flexbox, Grid, and pages that work on every screen. The week ends with a gate: you build and explain a responsive website before JavaScript begins.",
   },
   {
     week: "Week 4",
-    title: "JavaScript & Web Development",
-    desc: "The language of the web, DOM manipulation, and building responsive, accessible interfaces with HTML and CSS.",
+    title: "Git, GitHub & Your First JavaScript",
+    desc: "Version control, your website live on the internet, and your first programs: values, variables, and reading error messages.",
   },
   {
     week: "Week 5",
+    title: "JavaScript Logic & the DOM",
+    desc: "Conditions, loops, functions, arrays, and objects, used to make your own website interactive.",
+  },
+  {
+    week: "Week 6",
     title: "APIs & Engineering Workflow",
     desc: "Connect to services, read documentation, handle errors, and work through a development workflow.",
   },
   {
-    week: "Week 6",
-    title: "React",
-    desc: "Component-based architecture, state management, and building interactive modern interfaces.",
-  },
-  {
     week: "Week 7",
-    title: "AI-Assisted Engineering + Capstone Build",
-    desc: "Use AI tools to accelerate development while reviewing, testing, and verifying every output. Begin your capstone.",
+    title: "AI-Assisted Engineering, React Intro & Capstone Kickoff",
+    desc: "Use AI tools while reviewing, testing, and verifying every output. A first look at React. Plan your capstone and ship a first version.",
   },
   {
     week: "Week 8",

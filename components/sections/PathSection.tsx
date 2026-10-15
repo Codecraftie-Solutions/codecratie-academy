@@ -2,9 +2,9 @@
 import { useEffect, useRef, useState } from "react";
 
 const steps = [
-  { t: "Foundations & Programming", w: "Weeks 1–2", c: "var(--accent-warm)" },
-  { t: "Git & Web Development", w: "Weeks 3–4", c: "var(--dark)" },
-  { t: "APIs & React", w: "Weeks 5–6", c: "var(--dark)" },
+  { t: "HTML & CSS", w: "Weeks 1–3", c: "var(--accent-warm)" },
+  { t: "Git & JavaScript", w: "Weeks 4–5", c: "var(--dark)" },
+  { t: "APIs & Workflow", w: "Week 6", c: "var(--dark)" },
   { t: "AI-Assisted Engineering", w: "Week 7", c: "var(--accent)" },
   { t: "Capstone & Career Prep", w: "Week 8", c: "var(--accent-soft)" },
 ];
@@ -61,7 +61,7 @@ export default function PathSection() {
           <div className="pw-path">
             <div className="pw-title">
               <h3>Software Engineering &amp; AI Foundations</h3>
-              <p>8 weeks, live online, with JavaScript, React and AI-assisted practice</p>
+              <p>8 weeks, live online: HTML and CSS first, then JavaScript and AI-assisted practice</p>
             </div>
             <ol className="pw-row">
               {steps.map((s, i) => {
