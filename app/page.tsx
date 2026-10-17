@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/seo";
 import HeroSection from "@/components/sections/HeroSection";
 import PathSection from "@/components/sections/PathSection";
 import WhySection from "@/components/sections/WhySection";
@@ -9,6 +10,8 @@ import HowToApplySection from "@/components/sections/HowToApplySection";
 import PrinciplesSection from "@/components/sections/PrinciplesSection";
 import FAQSection from "@/components/sections/FAQSection";
 import FinalCTASection from "@/components/sections/FinalCTASection";
+
+export const metadata = pageMetadata('Software Engineering & AI Training | Code-Craftie Academy', 'Learn software engineering and AI foundations in an 8-week live online program for beginners. Build real projects with CodeCraftie Academy.', '/');
 
 export default function Home() {
   return (

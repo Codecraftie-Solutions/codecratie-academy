@@ -1,4 +1,7 @@
+import { pageMetadata } from "@/lib/seo";
 import RevealWrapper from "@/components/RevealWrapper";
+
+export const metadata = pageMetadata('About CodeCraftie Academy', 'Learn about CodeCraftie Academy and our practical approach to teaching software engineering, problem solving, and working effectively with AI.', '/about');
 
 export default function AboutPage() {
   return (

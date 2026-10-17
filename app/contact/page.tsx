@@ -3,6 +3,7 @@ import RevealWrapper from "@/components/RevealWrapper";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact | Code-Craftie Academy",
   description: "Send Code-Craftie Academy a message about the programme, payment, future cohorts or partnerships.",
 };
