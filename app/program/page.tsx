@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import RevealWrapper from "@/components/RevealWrapper";
 import ApplyLink from "@/components/ApplyLink";
@@ -44,6 +45,8 @@ const curriculumDetails = [
     desc: "Finish your project, present it, and prepare your portfolio and interview narrative.",
   },
 ];
+
+export const metadata = pageMetadata('Software Engineering & AI Foundations Program', 'Explore our 8-week beginner program: programming, Git, JavaScript, APIs, React, AI-assisted engineering, and a practical capstone project.', '/program');
 
 export default function ProgramPage() {
   return (
