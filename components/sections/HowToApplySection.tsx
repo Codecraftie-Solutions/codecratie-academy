@@ -17,7 +17,7 @@ export default function HowToApplySection() {
           <div className="grid-3">
             <div className="card">
               <h3>1. Fill in the application form</h3>
-              <p>Tell us about yourself and choose Foundation, Career Launch or 1:1 Pro.</p>
+              <p>Tell us about yourself and choose Foundation, Career Launch, Academy Membership or 1:1 Pro.</p>
             </div>
             <div className="card">
               <h3>2. {HAS_PAY_LINKS ? "Pay online or by transfer" : "Pay by bank transfer"}</h3>

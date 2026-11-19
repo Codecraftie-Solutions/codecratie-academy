@@ -12,7 +12,7 @@ export default function DetailsSection() {
           </div>
         </RevealWrapper>
         <RevealWrapper delay={120}>
-          <div className="grid-3">
+          <div className="grid-3 grid-tiers">
             {tiers.map((t) => (
               <div className={`card tier${t.featured ? " featured" : ""}`} key={t.name}>
                 <h3>{t.name}</h3>

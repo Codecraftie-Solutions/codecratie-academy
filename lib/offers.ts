@@ -39,6 +39,19 @@ export const tiers: Tier[] = [
     featured: true,
   },
   {
+    name: "Academy Membership",
+    price: "₦75,000 / month",
+    positioning: "Stay for six months and master the course, one milestone at a time.",
+    items: [
+      "6-month minimum, paid monthly",
+      "Live sessions every month",
+      "Monthly milestones and projects",
+      "Instructor review each month",
+      "Monthly progress check-in",
+      "Resource library",
+    ],
+  },
+  {
     name: "1:1 Pro",
     price: "₦300,000",
     positioning: "Personalized career and freelance coaching.",
