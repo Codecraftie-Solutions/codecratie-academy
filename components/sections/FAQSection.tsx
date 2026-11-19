@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "What does the program cost?",
-    a: "There are three options: Foundation at ₦80,000, Career Launch at ₦150,000, and 1:1 Pro at ₦300,000. The Program details section shows what each includes. You choose your option and upload your proof of payment on the application form.",
+    a: "There are three options: Foundation at ₦100,000, Career Launch at ₦250,000, and 1:1 Pro at ₦300,000. The Program details section shows what each includes. You choose your option and upload your proof of payment on the application form.",
   },
   {
     q: "How do I pay?",

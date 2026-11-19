@@ -11,7 +11,7 @@ export type Tier = {
 export const tiers: Tier[] = [
   {
     name: "Foundation",
-    price: "₦80,000",
+    price: "₦100,000",
     positioning: "Learn the foundations and build real projects.",
     items: [
       "8-week technical curriculum",
@@ -24,7 +24,7 @@ export const tiers: Tier[] = [
   },
   {
     name: "Career Launch",
-    price: "₦150,000",
+    price: "₦250,000",
     positioning: "Learn the skills, build the proof, and prepare yourself to pursue real opportunities.",
     lead: "Everything in Foundation, plus:",
     items: [
