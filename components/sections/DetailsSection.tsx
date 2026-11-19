@@ -8,7 +8,7 @@ export default function DetailsSection() {
         <RevealWrapper>
           <div className="section-head">
             <h2>Program details</h2>
-            <p className="lede">8 weeks, 16 live sessions, online, for complete beginners. Choose the level of support that fits you.</p>
+            <p className="lede">Foundation is 8 weeks. Academy Membership runs 6 months to master the full course. Online, for complete beginners. Choose the level that fits you.</p>
           </div>
         </RevealWrapper>
         <RevealWrapper delay={120}>

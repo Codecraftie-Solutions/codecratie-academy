@@ -1,16 +1,12 @@
 import RevealWrapper from "@/components/RevealWrapper";
 
 const modules = [
-  { num: "01", title: "Computer & Internet Foundations", desc: "How machines, networks, and the web work, and the mental models that support the rest of the course." },
-  { num: "02", title: "HTML", desc: "Structure content with semantic, accessible HTML, written from a blank file." },
-  { num: "03", title: "CSS & Responsive Design", desc: "Colour, type, the box model, and layouts with Flexbox and Grid that work on every screen." },
-  { num: "04", title: "The HTML/CSS Gate", desc: "Before any JavaScript, you build a responsive website on your own and explain every line of it." },
-  { num: "05", title: "Git & Version Control", desc: "Commits, branches, pull requests, and code review on GitHub. Your website goes live." },
-  { num: "06", title: "JavaScript", desc: "Variables, logic, functions, and the DOM, used to make your own pages interactive." },
-  { num: "07", title: "APIs & Engineering Workflow", desc: "Connect to services, read documentation, handle errors, and follow a development workflow." },
-  { num: "08", title: "AI-Assisted Software Engineering", desc: "Use AI to move faster while learning to review, test, debug, secure, and verify everything it produces. Plus a first look at React." },
-  { num: "09", title: "Capstone Project", desc: "Design, develop, and present an application, with code review and iteration along the way." },
-  { num: "10", title: "Career & Professional Development", desc: "Your portfolio, your project story, and how to talk about your work with confidence." },
+  { num: "01", title: "Month 1: HTML & CSS", desc: "Tools and HTML from a blank file, semantic and accessible markup, CSS, responsive layouts, and the HTML/CSS Gate before any JavaScript." },
+  { num: "02", title: "Month 2: JavaScript & Git", desc: "Variables, logic, functions and the DOM, plus Git and GitHub. Your website goes live." },
+  { num: "03", title: "Month 3: APIs & UI/UX", desc: "Connect to live data and handle errors. Then design thinking, accessibility and Figma basics, with a redesign project." },
+  { num: "04", title: "Month 4: React & React Native", desc: "React components, state and multi-page apps, then mobile with React Native and Expo, ending in a working mobile app." },
+  { num: "05", title: "Month 5: Security & AI Engineering", desc: "Web security fundamentals (OWASP Top 10, authentication, input validation), then AI-assisted engineering with review and testing." },
+  { num: "06", title: "Month 6: Capstone & Career", desc: "Plan, build and present a capstone project, then prepare your CV, LinkedIn, portfolio and job or freelance search." },
 ];
 
 export default function CurriculumSection() {
@@ -24,8 +20,8 @@ export default function CurriculumSection() {
           <div className="section-head">
             <h2>What you&apos;ll learn</h2>
             <p className="lede">
-              The modules progress from how the web works, through HTML, CSS
-              and JavaScript, to a deployed, AI-assisted capstone project.
+              Six monthly stages, each building on the last: HTML and CSS first,
+              then JavaScript, APIs, mobile, security and a capstone project.
             </p>
           </div>
         </RevealWrapper>

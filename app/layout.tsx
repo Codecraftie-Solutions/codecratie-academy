@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: { siteName: "Code-Craftie Academy", type: "website", locale: "en_NG", images: ["/og.png"] },
   twitter: { card: "summary_large_image", images: ["/og.png"] },
   description:
-    "Code-Craftie Academy's Software Engineering & AI Foundations: an 8-week live online program for beginners who want to understand technology, build real software, and learn to work effectively with AI.",
+    "Code-Craftie Academy's Software Engineering & AI Foundations: a live online program for beginners, from an 8-week Foundation to a six-month path who want to understand technology, build real software, and learn to work effectively with AI.",
 };
 
 export default function RootLayout({

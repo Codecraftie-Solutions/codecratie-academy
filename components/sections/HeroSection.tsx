@@ -4,7 +4,7 @@ import ReviewDemo from "@/components/ReviewDemo";
 
 const facts = [
   { label: "Live online", d: '<rect x="6" y="10" width="36" height="24" rx="4"/><path d="M2 40h44"/>' },
-  { label: "8 weeks", d: '<rect x="8" y="10" width="32" height="30" rx="5"/><path d="M8 20h32M16 6v8M32 6v8"/>' },
+  { label: "6 months", d: '<rect x="8" y="10" width="32" height="30" rx="5"/><path d="M8 20h32M16 6v8M32 6v8"/>' },
   { label: "2 live sessions per week", d: '<circle cx="24" cy="24" r="17"/><path d="M24 14v11l7 5"/>' },
   { label: "Capstone project", d: '<rect x="9" y="6" width="30" height="36" rx="5"/><path d="M16 17l3 3 5-6M16 31h16"/>' },
 ];
@@ -14,7 +14,7 @@ export default function HeroSection() {
     <section className="hero" id="top">
       <div className="container">
         <h1>Learn to Think.<br />Learn to Build.</h1>
-        <p className="lede">Software Engineering &amp; AI Foundations is an 8-week live online program for beginners. Study programming fundamentals, build a project, and learn to check the code you write with AI.</p>
+        <p className="lede">Software Engineering &amp; AI Foundations is a live online program for beginners. Start with an 8-week Foundation, or stay six months to master HTML, CSS, JavaScript, APIs, UI/UX, React Native, security and AI-assisted engineering.</p>
         <ul className="hero-facts">
           {facts.map((f) => (
             <li key={f.label}>

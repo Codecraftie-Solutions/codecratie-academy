@@ -10,11 +10,11 @@ const faqs = [
   },
   {
     q: "Why do you teach HTML and CSS before JavaScript?",
-    a: "JavaScript works on web pages, and you can't fix what you don't understand. Weeks 1–3 build solid HTML and CSS, ending in a gate where you build a responsive website on your own and explain every line. JavaScript starts in Week 4, once that foundation is in place.",
+    a: "JavaScript works on web pages, and you can't fix what you don't understand. Weeks 1–4 build solid HTML and CSS, ending in a gate where you build a responsive website on your own and explain every line. JavaScript starts in Week 5, once that foundation is in place.",
   },
   {
-    q: "Will I be a software engineer after 8 weeks?",
-    a: "No. Eight weeks is enough to establish a foundation, practise with development tools and AI, and complete a capstone project. Becoming a software engineer takes continued study and project work after the program.",
+    q: "Will I be a software engineer after six months?",
+    a: "No. Foundation (8 weeks) gives you a solid base, and the six-month membership takes you through React Native, security, AI-assisted engineering, a capstone and career preparation. Becoming a software engineer takes continued study and project work after the program.",
   },
   {
     q: "How much time does the program take each week?",

@@ -5,48 +5,38 @@ import ApplyLink from "@/components/ApplyLink";
 
 const curriculumDetails = [
   {
-    week: "Week 1",
-    title: "How the Web Works & Your First HTML Page",
-    desc: "How the internet and the web work, your code editor, and your first web page in HTML, written from a blank file.",
+    week: "Month 1 · Weeks 1–4",
+    title: "HTML & CSS, then the Gate",
+    desc: "Tools and the web, semantic HTML, CSS colour and layout, responsive design with Flexbox and Grid. Month 1 ends with the HTML/CSS Gate: you build and explain a responsive site before any JavaScript.",
   },
   {
-    week: "Week 2",
-    title: "HTML in Depth & CSS Foundations",
-    desc: "Semantic, accessible HTML with forms and tables, styled with CSS: colour, type, and the box model.",
+    week: "Month 2 · Weeks 5–8",
+    title: "JavaScript, Git & GitHub",
+    desc: "Variables, logic, functions and the DOM to make your pages interactive. Git and GitHub from Week 6, when submissions move to GitHub. Week 8 is a checkpoint project.",
   },
   {
-    week: "Week 3",
-    title: "Layout, Responsive Design & the HTML/CSS Gate",
-    desc: "Flexbox, Grid, and pages that work on every screen. The week ends with a gate: you build and explain a responsive website before JavaScript begins.",
+    week: "Month 3 · Weeks 9–12",
+    title: "APIs & UI/UX",
+    desc: "Fetch live data, handle errors and build forms that send data. Then UI/UX: hierarchy, accessibility and Figma basics, with a redesign project.",
   },
   {
-    week: "Week 4",
-    title: "Git, GitHub & Your First JavaScript",
-    desc: "Version control, your website live on the internet, and your first programs: values, variables, and reading error messages.",
+    week: "Month 4 · Weeks 13–16",
+    title: "React & React Native",
+    desc: "React components, props and state, then a React app. Mobile with React Native and Expo, ending in a working app that uses an API.",
   },
   {
-    week: "Week 5",
-    title: "JavaScript Logic & the DOM",
-    desc: "Conditions, loops, functions, arrays, and objects, used to make your own website interactive.",
+    week: "Month 5 · Weeks 17–20",
+    title: "Security & AI-Assisted Engineering",
+    desc: "OWASP Top 10, authentication and secrets, then secure your own project. Use AI tools while reviewing, testing and verifying every output. Career Launch starts in Week 20.",
   },
   {
-    week: "Week 6",
-    title: "APIs & Engineering Workflow",
-    desc: "Connect to services, read documentation, handle errors, and work through a development workflow.",
-  },
-  {
-    week: "Week 7",
-    title: "AI-Assisted Engineering, React Intro & Capstone Kickoff",
-    desc: "Use AI tools while reviewing, testing, and verifying every output. A first look at React. Plan your capstone and ship a first version.",
-  },
-  {
-    week: "Week 8",
-    title: "Capstone Polish, Demo & Career Prep",
-    desc: "Finish your project, present it, and prepare your portfolio and interview narrative.",
+    week: "Month 6 · Weeks 21–24",
+    title: "Capstone & Career",
+    desc: "Plan, build and present your capstone project. Prepare your CV, LinkedIn, GitHub portfolio and your job or freelance search.",
   },
 ];
 
-export const metadata = pageMetadata('Software Engineering & AI Foundations Program', 'Explore our 8-week beginner program: programming, Git, JavaScript, APIs, React, AI-assisted engineering, and a practical capstone project.', '/program');
+export const metadata = pageMetadata('Software Engineering & AI Foundations Program', 'Explore our beginner program: HTML and CSS, JavaScript, Git, APIs, UI/UX, React Native, security, AI-assisted engineering and a capstone project over six months.', '/program');
 
 export default function ProgramPage() {
   return (
@@ -63,9 +53,7 @@ export default function ProgramPage() {
                 Software Engineering & AI Foundations
               </h1>
               <p className="lede">
-                An 8-week live online program for complete beginners who want to
-                understand technology, build real software, and learn to work
-                effectively with AI.
+                A live online program for complete beginners. Start with the 8-week Foundation, or stay six months to master HTML, CSS, JavaScript, APIs, UI/UX, React Native, security and AI-assisted engineering.
               </p>
             </div>
           </RevealWrapper>

@@ -11,7 +11,7 @@ import PrinciplesSection from "@/components/sections/PrinciplesSection";
 import FAQSection from "@/components/sections/FAQSection";
 import FinalCTASection from "@/components/sections/FinalCTASection";
 
-export const metadata = pageMetadata('Software Engineering & AI Training | Code-Craftie Academy', 'Learn software engineering and AI foundations in an 8-week live online program for beginners. Build real projects with CodeCraftie Academy.', '/');
+export const metadata = pageMetadata('Software Engineering & AI Training | Code-Craftie Academy', 'Learn software engineering and AI foundations in a live online program for beginners, from an 8-week Foundation to a six-month path. Build real projects with CodeCraftie Academy.', '/');
 
 export default function Home() {
   return (
